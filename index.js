@@ -28,9 +28,16 @@ class Cuboid  {
     set_height(new_height) { 
         this.height = new_height
     } 
+    
+    get_volume() {
+        return this.length * this.width * this.height
+    }
+
+    get_surface_area() {
+        return 2 * (this.length * this.width + this.length * this.height + this.width * this.height)
+    }
 
 }
 
 const c = new Cuboid(5,3,4)
-
 
