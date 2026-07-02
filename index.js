@@ -6,7 +6,7 @@ class Cuboid  {
     }
 
     get_length() { 
-        returnthis.length 
+        return this.length 
     } 
 
     set_length(new_length) { 
@@ -14,7 +14,7 @@ class Cuboid  {
     } 
 
     get_width() { 
-        returnthis.width
+        return this.width
     } 
 
     set_width(new_width) { 
@@ -22,7 +22,7 @@ class Cuboid  {
     } 
 
     get_height() { 
-        returnthis.height
+        return this.height
     } 
 
     set_height(new_height) { 
